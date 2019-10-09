@@ -1,0 +1,32 @@
+{
+  "name": "albs.teams",
+  "version": "0.0.0",
+  "description": "App for sport teams management",
+  "homepage": "https://github.com/jfalbuquerque/albs.teams#readme",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/jfalbuquerque/albs.teams/issues"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "João Albuquerque",
+    "email": "jfalbuquerque@gmail.com",
+    "url": "https://github.com/jfalbuquerque"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfalbuquerque/albs.teams.git"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard"
+  },
+  "engines": {
+    "node": ">=10.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg-promise": "^9.3.3"
+  }
+}
