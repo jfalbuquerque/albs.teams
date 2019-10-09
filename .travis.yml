@@ -12,8 +12,8 @@ addons:
 env:
   global:
     - PGPORT=5433
-    - DB_NAME=runon_test
-    - DB_USER=runon
+    - DB_NAME=albs_test
+    - DB_USER=albs
 before_install:
   - npm install -g standard
 before_script:
